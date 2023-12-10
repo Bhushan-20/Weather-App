@@ -10,7 +10,7 @@ const searchForm = document.querySelector("[data-searchForm ]");
 const searchInp = document.querySelector("[data-searchInp]");
 const apiErrorContainer = document.querySelector(".api-error-container");
 let currentTab = userTab;
-const API_KEY = "5a82a0ac9928a7b1551f92878304262c";
+const API_KEY = "YOUR_API_KEY";
 
 // Setting default tab
 currentTab.classList.add("current-tab");
